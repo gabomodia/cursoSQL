@@ -31,12 +31,12 @@ UPDATE Personas SET nombre = 'Magdalena' WHERE ID = 2;
 UPDATE Personas SET nombre = 'Alicia' WHERE ID = 1;
 
 /*
-- Cambiar el apellido a 2 de ellas
+- Cambiar el apellido a 3 de ellas
 */
 
-UPDATE Personas SET nombre = 'Miguel' WHERE ID = 3;
-UPDATE Personas SET nombre = 'Daniel' WHERE ID = 5;
-UPDATE Personas SET nombre = 'Juana' WHERE ID = 1;
+UPDATE Personas SET apellido = 'Marquez' WHERE ID = 3;
+UPDATE Personas SET apellido = 'de la Flor' WHERE ID = 5;
+UPDATE Personas SET apellido = 'Bautista' WHERE ID = 1;
 
 
 /*
