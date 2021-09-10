@@ -67,7 +67,7 @@ CREATE TABLE Enfermedades(
     indice_letalidad FLOAT,
     zona_id INT NOT NULL,
     PRIMARY KEY(id),
-    FOREIGN KEY(zona_id) REFERENCES Zona_cuerpo(id)
+    FOREIGN KEY(zona_id) REFERENCES Zonas_cuerpo(id)
 );
 
 CREATE TABLE Historial_medico(
