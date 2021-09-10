@@ -1,5 +1,4 @@
-/*
-El ejercicio nos pide simplemente borrar todas las tablas, asi que alla vamos.
+/* El ejercicio nos pide simplemente borrar todas las tablas, asi que alla vamos.
 */
 
 DROP TABLE Vehiculos;
