@@ -65,7 +65,7 @@ CREATE TABLE Enfermedades(
     nombre VARCHAR(50),
     indice_contagio FLOAT,
     indice_letalidad FLOAT,
-    zona_id INT NOT NULL,
+    zona_id INT,
     PRIMARY KEY(id),
     FOREIGN KEY(zona_id) REFERENCES Zonas_cuerpo(id)
 );

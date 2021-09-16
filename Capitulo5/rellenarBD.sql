@@ -51,7 +51,7 @@ INSERT INTO Historial_fisico (paciente_id, altura, Peso, fecha) VALUES (5, 160, 
 INSERT INTO Historial_fisico (paciente_id, altura, Peso, fecha) VALUES (6, 180, 50, '2010-08-19');
 INSERT INTO Historial_fisico (paciente_id, altura, Peso, fecha) VALUES (6, 180, 90, '2020-08-19');
 
-/* Insertamos 12 zonas del cuerpo*/
+/* Insertamos 13 zonas del cuerpo*/
 INSERT INTO Zonas_cuerpo (nombre) VALUES ('Cabeza');
 INSERT INTO Zonas_cuerpo (nombre) VALUES ('Cuello');
 INSERT INTO Zonas_cuerpo (nombre) VALUES ('Corazon');
@@ -64,6 +64,7 @@ INSERT INTO Zonas_cuerpo (nombre) VALUES ('Ojos');
 INSERT INTO Zonas_cuerpo (nombre) VALUES ('Cerebro');
 INSERT INTO Zonas_cuerpo (nombre) VALUES ('Lengua');
 INSERT INTO Zonas_cuerpo (nombre) VALUES ('Oidos');
+INSERT INTO Zonas_cuerpo (nombre) VALUES ('Pelo');
 
 /* Insertamos 15 enfermedades*/
 INSERT INTO Enfermedades (nombre, indice_contagio, indice_letalidad, zona_id) VALUES ('Tuberculosis', 0.18, 0.2,  1);
@@ -81,6 +82,7 @@ INSERT INTO Enfermedades (nombre, indice_contagio, indice_letalidad, zona_id) VA
 INSERT INTO Enfermedades (nombre, indice_contagio, indice_letalidad, zona_id) VALUES ('Sarampión',    0.96, 0.37, 2);
 INSERT INTO Enfermedades (nombre, indice_contagio, indice_letalidad, zona_id) VALUES ('Depresión',    0.8,  0.30, 1);
 INSERT INTO Enfermedades (nombre, indice_contagio, indice_letalidad, zona_id) VALUES ('Ansiedad',     0.42, 0.98, 1);
+INSERT INTO Enfermedades (nombre, indice_contagio, indice_letalidad, zona_id) VALUES ('Tumor',        0.45, 0.45, NULL);
 
 
 /* Insertamos 3 historiales de enfermedades por paciente*/
