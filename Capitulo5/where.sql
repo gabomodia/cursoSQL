@@ -14,12 +14,12 @@ WHERE precio_compra>100;
 /*Seleccionar las enfermedades con índice de contagio e índice de mortalidad menor que 0.5*/
 SELECT *
 FROM enfermedades
-WHERE indice_contagio>0.5 AND indice_letalidad >0.5;
+WHERE indice_contagio<0.5 AND indice_letalidad <0.5;
 
 /*Seleccionar las enfermedades con índice de contagio o índice de mortalidad menor que 0.5*/
 SELECT *
 FROM enfermedades
-WHERE indice_contagio>0.5 OR indice_letalidad >0.5;
+WHERE indice_contagio<0.5 OR indice_letalidad <0.5;
 
 /*Seleccionar las enfermedades con índice de contagio entre 0.5 y 0.8*/
 SELECT *
